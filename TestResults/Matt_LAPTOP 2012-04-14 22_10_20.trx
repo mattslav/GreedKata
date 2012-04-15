@@ -1,0 +1,212 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="f97c02fc-0e5f-4b58-a936-98463fc7db1d" name="Matt@LAPTOP 2012-04-14 22:10:20" runUser="laptop\Matt" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4663f0f2-8423-4c52-9793-eac18d9a1990">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Matt_LAPTOP 2012-04-14 22_10_20">
+      <DeploymentItem filename="D:\GreedKata\GreedKata\bin\Debug\GreedKata.exe" />
+      <DeploymentItem filename="D:\GreedKata\GreedKata.Test\obj\FluentAssertions.dll" />
+      <DeploymentItem filename="D:\GreedKata\GreedKata.Test\obj\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-14T22:10:20.7410000-04:00" queuing="2012-04-14T22:10:20.8790000-04:00" start="2012-04-14T22:10:20.9030000-04:00" finish="2012-04-14T22:10:22.0530000-04:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="26" executed="26" passed="26" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AndBothFiveRulesAreMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="8bc84bc3-f5ff-1528-80bb-3bed49d3fcd8">
+      <Execution id="3750a35b-07a1-4f28-94bd-4751d3f4008d" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndBothFiveRulesAreMatched" />
+    </UnitTest>
+    <UnitTest name="AndTheOneOneRuleIsMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="c042c0ad-a16d-b763-65dd-f31d6cf2d950">
+      <Execution id="843b9df2-3f8f-4bec-8024-023a1e63497c" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheOneOneRuleIsMatched" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeTwosRuleIsMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="20c0f5d0-691a-e093-e521-9234ae60aed1">
+      <Execution id="6f945a5f-b8c1-4971-9b47-13901b38fb83" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeTwosRuleIsMatched" />
+    </UnitTest>
+    <UnitTest name="OneDieWithTheValueToMatchReturnsFalse" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="9343120d-9a61-e87b-64b1-f423d535d4a9">
+      <Execution id="1fbe3d5d-005b-4e90-9947-2f3f59a67e31" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Rules.WhenMatchingThreeDiceWithTheSameValue, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OneDieWithTheValueToMatchReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="AndTheOneFiveRuleIsMatchedTheOneOneIsMatchedTwice" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="5aaf4d04-efc5-db88-0b8a-b55d52a9660c">
+      <Execution id="7595fd60-2732-4811-a055-f532f695c921" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheOneFiveRuleIsMatchedTheOneOneIsMatchedTwice" />
+    </UnitTest>
+    <UnitTest name="ThreeDiceWithTheValueToMatchReturnsTrue" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="b494e56d-9a80-37be-f315-4879f38f7ae2">
+      <Execution id="66bc2a70-4398-47e7-9aa1-316088875d43" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Rules.WhenMatchingThreeDiceWithTheSameValue, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThreeDiceWithTheValueToMatchReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="TheRuleValueCanBeLookedUp" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="75790c8d-f6b0-593d-b258-d4c6454a9a2b">
+      <Execution id="13ffcedd-393a-4418-a1f0-a9c2e29b798f" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Rules.WhenMatchingOneDie, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TheRuleValueCanBeLookedUp" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeFoursRuleIsMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="9ca15271-9dd2-94e2-4ff8-7700ef0feab3">
+      <Execution id="d0fbb3d1-e87f-40d9-b76c-541cabda2c71" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeFoursRuleIsMatched" />
+    </UnitTest>
+    <UnitTest name="TheScoreIsCalculated" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="c5f6d443-3c49-66fe-1fb3-4e72bcadae47">
+      <Execution id="c72310f6-192c-4944-8040-e38ec96e2b5c" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Game.WhenRollingDice, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TheScoreIsCalculated" />
+    </UnitTest>
+    <UnitTest name="AndTheOneFiveRuleIsMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="778be0c6-fe55-a457-31a7-bcb21ead00f6">
+      <Execution id="6837c84b-2965-47fb-8070-04d00e5ade7c" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheOneFiveRuleIsMatched" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeOnesAndOneFiveRulesAreMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="7255818f-c892-55a9-aa7f-3ba2451b4768">
+      <Execution id="10dc6983-1c01-4a84-8939-bc5b4974dc21" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeOnesAndOneFiveRulesAreMatched" />
+    </UnitTest>
+    <UnitTest name="NoDiceWithTheValueToMatchReturnsFalse" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="19bb8d38-09db-b45c-d97a-d557506c887a">
+      <Execution id="3bfa7680-279f-4809-9f77-a288eb15d54f" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Rules.WhenMatchingOneDie, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NoDiceWithTheValueToMatchReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="TheRandomDiceArePassedToTheCalculateMethod" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="dbe0687b-8deb-308d-4e68-8ca5182254d1">
+      <Execution id="16404d8b-1188-4bc3-a3e8-9f86870ee981" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Game.WhenRollingDice, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TheRandomDiceArePassedToTheCalculateMethod" />
+    </UnitTest>
+    <UnitTest name="FourDiceWithTheValueToMatchReturnsTrue" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="bef0335e-32e6-07a2-f7b0-f8b5481ddd3e">
+      <Execution id="a1931713-983c-4a6f-8713-c2f662846ac0" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Rules.WhenMatchingThreeDiceWithTheSameValue, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FourDiceWithTheValueToMatchReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeSixesRuleIsMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="fc13ee49-bfaf-6222-1eb6-68d3562aa4fa">
+      <Execution id="007a6c04-eea8-4296-a446-6879136f222f" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeSixesRuleIsMatched" />
+    </UnitTest>
+    <UnitTest name="AndTheOneOneIsMatchedTwice" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="1673a8a4-378a-d742-b5f3-241ce0570854">
+      <Execution id="2bb7450f-5e4c-4905-995e-4ef4e51cf9e1" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheOneOneIsMatchedTwice" />
+    </UnitTest>
+    <UnitTest name="TheRuleValueCanBeLookedUp" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="f5a66eed-0f35-c989-399d-19a782d6ddc0">
+      <Execution id="4a2dedef-f21f-472a-91f8-3be10eb31adb" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Rules.WhenMatchingThreeDiceWithTheSameValue, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TheRuleValueCanBeLookedUp" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeThreesAndOneFiveRulesAreMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="c143b250-1b85-0f8d-d9aa-91fbb8d4803b">
+      <Execution id="9916b01e-9795-4751-b5ac-347c7b61e68a" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeThreesAndOneFiveRulesAreMatched" />
+    </UnitTest>
+    <UnitTest name="NoDiceWithTheValueToMatchReturnsFalse" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="cdd011d7-65ff-d1a2-8b99-24ac44f008b5">
+      <Execution id="4b34cc65-d990-40ac-a478-ab870d5a075f" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Rules.WhenMatchingThreeDiceWithTheSameValue, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NoDiceWithTheValueToMatchReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeOnesRuleIsMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="5f2aac0f-1b8f-d439-09a1-caeca311e810">
+      <Execution id="65b3fcc6-f32b-4968-8f05-f59145388e03" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeOnesRuleIsMatched" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeFivesRuleIsMatchedTheOneFiveIsMatchedTwice" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="62d6ee5f-c464-4ca7-03e8-eeb4a2911936">
+      <Execution id="7d069d76-500a-4114-a614-33b8c752c70a" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeFivesRuleIsMatchedTheOneFiveIsMatchedTwice" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeThreesRuleIsMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="cdba51be-4aaa-1bf6-a1a0-42dfd4c54dd0">
+      <Execution id="6889809d-d931-45a9-b0e5-cda89d2ba2db" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeThreesRuleIsMatched" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeFivesRuleIsMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="36dd9b67-a4ad-c710-f2b2-b218d79a554a">
+      <Execution id="681172e4-e691-4bde-8437-fc74309a1fa7" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeFivesRuleIsMatched" />
+    </UnitTest>
+    <UnitTest name="RandomDiceAreRetrieved" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="4e326c1d-dd85-aa8e-2dc5-6bbbc9775777">
+      <Execution id="a524173a-9255-4dd6-83ba-ced3c8d1bb3b" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Game.WhenRollingDice, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RandomDiceAreRetrieved" />
+    </UnitTest>
+    <UnitTest name="AndNoRulesAreMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="efd49c58-fd7b-53ca-9b39-f32fa3d40890">
+      <Execution id="7404b0a1-f152-4355-bde4-f0ab4bf5259e" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndNoRulesAreMatched" />
+    </UnitTest>
+    <UnitTest name="AtLeastOneDieWithTheValueToMatchReturnsTrue" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="7b6ee3fd-918a-1385-912b-acc296b40e7b">
+      <Execution id="e6c8ce2d-d680-48cd-a9c3-335ce961938b" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Rules.WhenMatchingOneDie, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AtLeastOneDieWithTheValueToMatchReturnsTrue" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1673a8a4-378a-d742-b5f3-241ce0570854" executionId="2bb7450f-5e4c-4905-995e-4ef4e51cf9e1" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19bb8d38-09db-b45c-d97a-d557506c887a" executionId="3bfa7680-279f-4809-9f77-a288eb15d54f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20c0f5d0-691a-e093-e521-9234ae60aed1" executionId="6f945a5f-b8c1-4971-9b47-13901b38fb83" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36dd9b67-a4ad-c710-f2b2-b218d79a554a" executionId="681172e4-e691-4bde-8437-fc74309a1fa7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="4e326c1d-dd85-aa8e-2dc5-6bbbc9775777" executionId="a524173a-9255-4dd6-83ba-ced3c8d1bb3b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5aaf4d04-efc5-db88-0b8a-b55d52a9660c" executionId="7595fd60-2732-4811-a055-f532f695c921" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f2aac0f-1b8f-d439-09a1-caeca311e810" executionId="65b3fcc6-f32b-4968-8f05-f59145388e03" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="62d6ee5f-c464-4ca7-03e8-eeb4a2911936" executionId="7d069d76-500a-4114-a614-33b8c752c70a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7255818f-c892-55a9-aa7f-3ba2451b4768" executionId="10dc6983-1c01-4a84-8939-bc5b4974dc21" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75790c8d-f6b0-593d-b258-d4c6454a9a2b" executionId="13ffcedd-393a-4418-a1f0-a9c2e29b798f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="778be0c6-fe55-a457-31a7-bcb21ead00f6" executionId="6837c84b-2965-47fb-8070-04d00e5ade7c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b6ee3fd-918a-1385-912b-acc296b40e7b" executionId="e6c8ce2d-d680-48cd-a9c3-335ce961938b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8bc84bc3-f5ff-1528-80bb-3bed49d3fcd8" executionId="3750a35b-07a1-4f28-94bd-4751d3f4008d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9343120d-9a61-e87b-64b1-f423d535d4a9" executionId="1fbe3d5d-005b-4e90-9947-2f3f59a67e31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ca15271-9dd2-94e2-4ff8-7700ef0feab3" executionId="d0fbb3d1-e87f-40d9-b76c-541cabda2c71" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b494e56d-9a80-37be-f315-4879f38f7ae2" executionId="66bc2a70-4398-47e7-9aa1-316088875d43" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bef0335e-32e6-07a2-f7b0-f8b5481ddd3e" executionId="a1931713-983c-4a6f-8713-c2f662846ac0" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c042c0ad-a16d-b763-65dd-f31d6cf2d950" executionId="843b9df2-3f8f-4bec-8024-023a1e63497c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c143b250-1b85-0f8d-d9aa-91fbb8d4803b" executionId="9916b01e-9795-4751-b5ac-347c7b61e68a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c5f6d443-3c49-66fe-1fb3-4e72bcadae47" executionId="c72310f6-192c-4944-8040-e38ec96e2b5c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cdba51be-4aaa-1bf6-a1a0-42dfd4c54dd0" executionId="6889809d-d931-45a9-b0e5-cda89d2ba2db" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cdd011d7-65ff-d1a2-8b99-24ac44f008b5" executionId="4b34cc65-d990-40ac-a478-ab870d5a075f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="dbe0687b-8deb-308d-4e68-8ca5182254d1" executionId="16404d8b-1188-4bc3-a3e8-9f86870ee981" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efd49c58-fd7b-53ca-9b39-f32fa3d40890" executionId="7404b0a1-f152-4355-bde4-f0ab4bf5259e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5a66eed-0f35-c989-399d-19a782d6ddc0" executionId="4a2dedef-f21f-472a-91f8-3be10eb31adb" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc13ee49-bfaf-6222-1eb6-68d3562aa4fa" executionId="007a6c04-eea8-4296-a446-6879136f222f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="2bb7450f-5e4c-4905-995e-4ef4e51cf9e1" testId="1673a8a4-378a-d742-b5f3-241ce0570854" testName="AndTheOneOneIsMatchedTwice" computerName="LAPTOP" duration="00:00:00.0322127" startTime="2012-04-14T22:10:20.9310000-04:00" endTime="2012-04-14T22:10:21.3670000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2bb7450f-5e4c-4905-995e-4ef4e51cf9e1">
+    </UnitTestResult>
+    <UnitTestResult executionId="3bfa7680-279f-4809-9f77-a288eb15d54f" testId="19bb8d38-09db-b45c-d97a-d557506c887a" testName="NoDiceWithTheValueToMatchReturnsFalse" computerName="LAPTOP" duration="00:00:00.0062140" startTime="2012-04-14T22:10:21.3810000-04:00" endTime="2012-04-14T22:10:21.4020000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3bfa7680-279f-4809-9f77-a288eb15d54f">
+    </UnitTestResult>
+    <UnitTestResult executionId="6f945a5f-b8c1-4971-9b47-13901b38fb83" testId="20c0f5d0-691a-e093-e521-9234ae60aed1" testName="AndTheThreeTwosRuleIsMatched" computerName="LAPTOP" duration="00:00:00.0019608" startTime="2012-04-14T22:10:21.4090000-04:00" endTime="2012-04-14T22:10:21.4250000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6f945a5f-b8c1-4971-9b47-13901b38fb83">
+    </UnitTestResult>
+    <UnitTestResult executionId="681172e4-e691-4bde-8437-fc74309a1fa7" testId="36dd9b67-a4ad-c710-f2b2-b218d79a554a" testName="AndTheThreeFivesRuleIsMatched" computerName="LAPTOP" duration="00:00:00.0011612" startTime="2012-04-14T22:10:21.4340000-04:00" endTime="2012-04-14T22:10:21.4510000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="681172e4-e691-4bde-8437-fc74309a1fa7">
+    </UnitTestResult>
+    <UnitTestResult executionId="a524173a-9255-4dd6-83ba-ced3c8d1bb3b" testId="4e326c1d-dd85-aa8e-2dc5-6bbbc9775777" testName="RandomDiceAreRetrieved" computerName="LAPTOP" duration="00:00:00.2253685" startTime="2012-04-14T22:10:21.4530000-04:00" endTime="2012-04-14T22:10:21.6960000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a524173a-9255-4dd6-83ba-ced3c8d1bb3b">
+    </UnitTestResult>
+    <UnitTestResult executionId="7595fd60-2732-4811-a055-f532f695c921" testId="5aaf4d04-efc5-db88-0b8a-b55d52a9660c" testName="AndTheOneFiveRuleIsMatchedTheOneOneIsMatchedTwice" computerName="LAPTOP" duration="00:00:00.0003216" startTime="2012-04-14T22:10:21.7020000-04:00" endTime="2012-04-14T22:10:21.7080000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7595fd60-2732-4811-a055-f532f695c921">
+    </UnitTestResult>
+    <UnitTestResult executionId="65b3fcc6-f32b-4968-8f05-f59145388e03" testId="5f2aac0f-1b8f-d439-09a1-caeca311e810" testName="AndTheThreeOnesRuleIsMatched" computerName="LAPTOP" duration="00:00:00.0003183" startTime="2012-04-14T22:10:21.7100000-04:00" endTime="2012-04-14T22:10:21.7190000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="65b3fcc6-f32b-4968-8f05-f59145388e03">
+    </UnitTestResult>
+    <UnitTestResult executionId="7d069d76-500a-4114-a614-33b8c752c70a" testId="62d6ee5f-c464-4ca7-03e8-eeb4a2911936" testName="AndTheThreeFivesRuleIsMatchedTheOneFiveIsMatchedTwice" computerName="LAPTOP" duration="00:00:00.0003714" startTime="2012-04-14T22:10:21.7200000-04:00" endTime="2012-04-14T22:10:21.7350000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7d069d76-500a-4114-a614-33b8c752c70a">
+    </UnitTestResult>
+    <UnitTestResult executionId="10dc6983-1c01-4a84-8939-bc5b4974dc21" testId="7255818f-c892-55a9-aa7f-3ba2451b4768" testName="AndTheThreeOnesAndOneFiveRulesAreMatched" computerName="LAPTOP" duration="00:00:00.0003453" startTime="2012-04-14T22:10:21.7430000-04:00" endTime="2012-04-14T22:10:21.7520000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="10dc6983-1c01-4a84-8939-bc5b4974dc21">
+    </UnitTestResult>
+    <UnitTestResult executionId="13ffcedd-393a-4418-a1f0-a9c2e29b798f" testId="75790c8d-f6b0-593d-b258-d4c6454a9a2b" testName="TheRuleValueCanBeLookedUp" computerName="LAPTOP" duration="00:00:00.0002950" startTime="2012-04-14T22:10:21.7550000-04:00" endTime="2012-04-14T22:10:21.7710000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="13ffcedd-393a-4418-a1f0-a9c2e29b798f">
+    </UnitTestResult>
+    <UnitTestResult executionId="6837c84b-2965-47fb-8070-04d00e5ade7c" testId="778be0c6-fe55-a457-31a7-bcb21ead00f6" testName="AndTheOneFiveRuleIsMatched" computerName="LAPTOP" duration="00:00:00.0004528" startTime="2012-04-14T22:10:21.7720000-04:00" endTime="2012-04-14T22:10:21.7820000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6837c84b-2965-47fb-8070-04d00e5ade7c">
+    </UnitTestResult>
+    <UnitTestResult executionId="e6c8ce2d-d680-48cd-a9c3-335ce961938b" testId="7b6ee3fd-918a-1385-912b-acc296b40e7b" testName="AtLeastOneDieWithTheValueToMatchReturnsTrue" computerName="LAPTOP" duration="00:00:00.0004026" startTime="2012-04-14T22:10:21.7830000-04:00" endTime="2012-04-14T22:10:21.7990000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e6c8ce2d-d680-48cd-a9c3-335ce961938b">
+    </UnitTestResult>
+    <UnitTestResult executionId="3750a35b-07a1-4f28-94bd-4751d3f4008d" testId="8bc84bc3-f5ff-1528-80bb-3bed49d3fcd8" testName="AndBothFiveRulesAreMatched" computerName="LAPTOP" duration="00:00:00.0003262" startTime="2012-04-14T22:10:21.8010000-04:00" endTime="2012-04-14T22:10:21.8100000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="3750a35b-07a1-4f28-94bd-4751d3f4008d">
+    </UnitTestResult>
+    <UnitTestResult executionId="1fbe3d5d-005b-4e90-9947-2f3f59a67e31" testId="9343120d-9a61-e87b-64b1-f423d535d4a9" testName="OneDieWithTheValueToMatchReturnsFalse" computerName="LAPTOP" duration="00:00:00.0005752" startTime="2012-04-14T22:10:21.8160000-04:00" endTime="2012-04-14T22:10:21.8210000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1fbe3d5d-005b-4e90-9947-2f3f59a67e31">
+    </UnitTestResult>
+    <UnitTestResult executionId="d0fbb3d1-e87f-40d9-b76c-541cabda2c71" testId="9ca15271-9dd2-94e2-4ff8-7700ef0feab3" testName="AndTheThreeFoursRuleIsMatched" computerName="LAPTOP" duration="00:00:00.0003420" startTime="2012-04-14T22:10:21.8230000-04:00" endTime="2012-04-14T22:10:21.8370000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d0fbb3d1-e87f-40d9-b76c-541cabda2c71">
+    </UnitTestResult>
+    <UnitTestResult executionId="66bc2a70-4398-47e7-9aa1-316088875d43" testId="b494e56d-9a80-37be-f315-4879f38f7ae2" testName="ThreeDiceWithTheValueToMatchReturnsTrue" computerName="LAPTOP" duration="00:00:00.0002550" startTime="2012-04-14T22:10:21.8400000-04:00" endTime="2012-04-14T22:10:21.8480000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="66bc2a70-4398-47e7-9aa1-316088875d43">
+    </UnitTestResult>
+    <UnitTestResult executionId="a1931713-983c-4a6f-8713-c2f662846ac0" testId="bef0335e-32e6-07a2-f7b0-f8b5481ddd3e" testName="FourDiceWithTheValueToMatchReturnsTrue" computerName="LAPTOP" duration="00:00:00.0003514" startTime="2012-04-14T22:10:21.8500000-04:00" endTime="2012-04-14T22:10:21.8600000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a1931713-983c-4a6f-8713-c2f662846ac0">
+    </UnitTestResult>
+    <UnitTestResult executionId="843b9df2-3f8f-4bec-8024-023a1e63497c" testId="c042c0ad-a16d-b763-65dd-f31d6cf2d950" testName="AndTheOneOneRuleIsMatched" computerName="LAPTOP" duration="00:00:00.0013218" startTime="2012-04-14T22:10:21.8610000-04:00" endTime="2012-04-14T22:10:21.8770000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="843b9df2-3f8f-4bec-8024-023a1e63497c">
+    </UnitTestResult>
+    <UnitTestResult executionId="9916b01e-9795-4751-b5ac-347c7b61e68a" testId="c143b250-1b85-0f8d-d9aa-91fbb8d4803b" testName="AndTheThreeThreesAndOneFiveRulesAreMatched" computerName="LAPTOP" duration="00:00:00.0091062" startTime="2012-04-14T22:10:21.8810000-04:00" endTime="2012-04-14T22:10:21.9050000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9916b01e-9795-4751-b5ac-347c7b61e68a">
+    </UnitTestResult>
+    <UnitTestResult executionId="c72310f6-192c-4944-8040-e38ec96e2b5c" testId="c5f6d443-3c49-66fe-1fb3-4e72bcadae47" testName="TheScoreIsCalculated" computerName="LAPTOP" duration="00:00:00.0384175" startTime="2012-04-14T22:10:21.9080000-04:00" endTime="2012-04-14T22:10:21.9550000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c72310f6-192c-4944-8040-e38ec96e2b5c">
+    </UnitTestResult>
+    <UnitTestResult executionId="6889809d-d931-45a9-b0e5-cda89d2ba2db" testId="cdba51be-4aaa-1bf6-a1a0-42dfd4c54dd0" testName="AndTheThreeThreesRuleIsMatched" computerName="LAPTOP" duration="00:00:00.0003965" startTime="2012-04-14T22:10:21.9570000-04:00" endTime="2012-04-14T22:10:21.9660000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6889809d-d931-45a9-b0e5-cda89d2ba2db">
+    </UnitTestResult>
+    <UnitTestResult executionId="4b34cc65-d990-40ac-a478-ab870d5a075f" testId="cdd011d7-65ff-d1a2-8b99-24ac44f008b5" testName="NoDiceWithTheValueToMatchReturnsFalse" computerName="LAPTOP" duration="00:00:00.0002699" startTime="2012-04-14T22:10:21.9700000-04:00" endTime="2012-04-14T22:10:21.9760000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4b34cc65-d990-40ac-a478-ab870d5a075f">
+    </UnitTestResult>
+    <UnitTestResult executionId="16404d8b-1188-4bc3-a3e8-9f86870ee981" testId="dbe0687b-8deb-308d-4e68-8ca5182254d1" testName="TheRandomDiceArePassedToTheCalculateMethod" computerName="LAPTOP" duration="00:00:00.0111769" startTime="2012-04-14T22:10:21.9790000-04:00" endTime="2012-04-14T22:10:22.0000000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="16404d8b-1188-4bc3-a3e8-9f86870ee981">
+    </UnitTestResult>
+    <UnitTestResult executionId="7404b0a1-f152-4355-bde4-f0ab4bf5259e" testId="efd49c58-fd7b-53ca-9b39-f32fa3d40890" testName="AndNoRulesAreMatched" computerName="LAPTOP" duration="00:00:00.0003206" startTime="2012-04-14T22:10:22.0010000-04:00" endTime="2012-04-14T22:10:22.0120000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="7404b0a1-f152-4355-bde4-f0ab4bf5259e">
+    </UnitTestResult>
+    <UnitTestResult executionId="4a2dedef-f21f-472a-91f8-3be10eb31adb" testId="f5a66eed-0f35-c989-399d-19a782d6ddc0" testName="TheRuleValueCanBeLookedUp" computerName="LAPTOP" duration="00:00:00.0003295" startTime="2012-04-14T22:10:22.0170000-04:00" endTime="2012-04-14T22:10:22.0220000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4a2dedef-f21f-472a-91f8-3be10eb31adb">
+    </UnitTestResult>
+    <UnitTestResult executionId="007a6c04-eea8-4296-a446-6879136f222f" testId="fc13ee49-bfaf-6222-1eb6-68d3562aa4fa" testName="AndTheThreeSixesRuleIsMatched" computerName="LAPTOP" duration="00:00:00.0003551" startTime="2012-04-14T22:10:22.0250000-04:00" endTime="2012-04-14T22:10:22.0300000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="007a6c04-eea8-4296-a446-6879136f222f">
+    </UnitTestResult>
+  </Results>
+</TestRun>

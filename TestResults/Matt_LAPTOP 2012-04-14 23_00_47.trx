@@ -1,0 +1,699 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="5e576e3c-d43b-4c8f-92d3-faee61d480ae" name="Matt@LAPTOP 2012-04-14 23:00:47" runUser="laptop\Matt" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="4663f0f2-8423-4c52-9793-eac18d9a1990">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Matt_LAPTOP 2012-04-14 23_00_47">
+      <DeploymentItem filename="D:\GreedKata\GreedKata\bin\Debug\GreedKata.exe" />
+      <DeploymentItem filename="D:\GreedKata\GreedKata.Test\obj\FluentAssertions.dll" />
+      <DeploymentItem filename="D:\GreedKata\GreedKata.Test\obj\Moq.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2012-04-14T23:00:47.5670000-04:00" queuing="2012-04-14T23:00:47.7820000-04:00" start="2012-04-14T23:00:47.8120000-04:00" finish="2012-04-14T23:00:49.0720000-04:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="27" executed="27" passed="12" error="0" failed="15" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="AndTheOneFiveRuleIsMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="778be0c6-fe55-a457-31a7-bcb21ead00f6">
+      <Execution id="ad2e5a36-7d89-4915-a050-40243a3b4a5e" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheOneFiveRuleIsMatched" />
+    </UnitTest>
+    <UnitTest name="NoDiceWithTheValueToMatchReturnsFalse" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="19bb8d38-09db-b45c-d97a-d557506c887a">
+      <Execution id="74e2823c-69bf-455e-ab2f-e62146726f18" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Rules.WhenMatchingOneDie, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NoDiceWithTheValueToMatchReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="FourDiceWithTheValueToMatchReturnsTrue" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="bef0335e-32e6-07a2-f7b0-f8b5481ddd3e">
+      <Execution id="298dba8e-6523-49d8-b704-e9cfc53c6109" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Rules.WhenMatchingThreeDiceWithTheSameValue, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="FourDiceWithTheValueToMatchReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="NoDiceWithTheValueToMatchReturnsFalse" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="cdd011d7-65ff-d1a2-8b99-24ac44f008b5">
+      <Execution id="d096610c-19ff-4693-a4aa-128658d8b4ce" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Rules.WhenMatchingThreeDiceWithTheSameValue, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="NoDiceWithTheValueToMatchReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeSixesRuleIsMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="fc13ee49-bfaf-6222-1eb6-68d3562aa4fa">
+      <Execution id="6934afe0-5622-49f7-bd7c-57ce199b3231" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeSixesRuleIsMatched" />
+    </UnitTest>
+    <UnitTest name="AndBothFiveRulesAreMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="8bc84bc3-f5ff-1528-80bb-3bed49d3fcd8">
+      <Execution id="ccdb122f-697d-487e-a263-1e0e19a70574" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndBothFiveRulesAreMatched" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeThreesAndOneFiveRulesAreMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="c143b250-1b85-0f8d-d9aa-91fbb8d4803b">
+      <Execution id="67fe4812-d906-4d5a-b0df-8109c6fde92f" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeThreesAndOneFiveRulesAreMatched" />
+    </UnitTest>
+    <UnitTest name="AndTheOneOneRuleIsMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="c042c0ad-a16d-b763-65dd-f31d6cf2d950">
+      <Execution id="e346b5d5-1713-4c92-94df-8d464621e750" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheOneOneRuleIsMatched" />
+    </UnitTest>
+    <UnitTest name="TheRandomDiceArePassedToTheCalculateMethod" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="78fa53d6-18f0-08c9-13fc-312de31649eb">
+      <Execution id="bf7d0fd8-8941-4734-b5fa-7e0b055bdc31" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.WhenRollingDice, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TheRandomDiceArePassedToTheCalculateMethod" />
+    </UnitTest>
+    <UnitTest name="AndNoRulesAreMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="efd49c58-fd7b-53ca-9b39-f32fa3d40890">
+      <Execution id="121aa3a2-84ad-453c-bf30-82c68d0a63b8" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndNoRulesAreMatched" />
+    </UnitTest>
+    <UnitTest name="TheScoreIsCalculatedAndReturned" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="681927c2-fead-4997-7a80-5bdc55eb5552">
+      <Execution id="e9760ed1-7578-4a42-b2a1-53990848774e" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.WhenRollingDice, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TheScoreIsCalculatedAndReturned" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeOnesRuleIsMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="5f2aac0f-1b8f-d439-09a1-caeca311e810">
+      <Execution id="b1b52eb3-0085-450f-bbcf-c7695fc1ea2a" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeOnesRuleIsMatched" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeFoursRuleIsMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="9ca15271-9dd2-94e2-4ff8-7700ef0feab3">
+      <Execution id="ace157fe-57bf-4b1b-a9f1-40c42449653f" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeFoursRuleIsMatched" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeFivesRuleIsMatchedTheOneFiveIsMatchedTwice" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="62d6ee5f-c464-4ca7-03e8-eeb4a2911936">
+      <Execution id="19254c99-96fb-4c45-9528-98b9d8d2eaaf" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeFivesRuleIsMatchedTheOneFiveIsMatchedTwice" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeTwosRuleIsMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="20c0f5d0-691a-e093-e521-9234ae60aed1">
+      <Execution id="e968c638-ece7-49f5-9afd-95db0069cedc" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeTwosRuleIsMatched" />
+    </UnitTest>
+    <UnitTest name="TheRuleValueCanBeLookedUp" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="f5a66eed-0f35-c989-399d-19a782d6ddc0">
+      <Execution id="4f15e251-915b-40c7-9e9e-161c496425d7" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Rules.WhenMatchingThreeDiceWithTheSameValue, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TheRuleValueCanBeLookedUp" />
+    </UnitTest>
+    <UnitTest name="AtLeastOneDieWithTheValueToMatchReturnsTrue" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="7b6ee3fd-918a-1385-912b-acc296b40e7b">
+      <Execution id="9bcbeaa4-86f0-42db-8dd0-ce4080f35c1d" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Rules.WhenMatchingOneDie, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AtLeastOneDieWithTheValueToMatchReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="OneDieWithTheValueToMatchReturnsFalse" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="9343120d-9a61-e87b-64b1-f423d535d4a9">
+      <Execution id="2840170e-81f8-4175-96cb-31c263edd52c" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Rules.WhenMatchingThreeDiceWithTheSameValue, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="OneDieWithTheValueToMatchReturnsFalse" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeThreesRuleIsMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="cdba51be-4aaa-1bf6-a1a0-42dfd4c54dd0">
+      <Execution id="b8c38e22-9266-4d85-9be3-2f7669fb5768" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeThreesRuleIsMatched" />
+    </UnitTest>
+    <UnitTest name="ThreeDiceWithTheValueToMatchReturnsTrue" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="b494e56d-9a80-37be-f315-4879f38f7ae2">
+      <Execution id="2ee9dfcd-45fa-4faf-b32b-6ccd0afe9fe7" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Rules.WhenMatchingThreeDiceWithTheSameValue, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="ThreeDiceWithTheValueToMatchReturnsTrue" />
+    </UnitTest>
+    <UnitTest name="TheNumberOfDiceCreatedIsDictatedByTheInput" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="ab7abe8a-2795-55ca-ac43-345ef40de510">
+      <Execution id="294c25db-b7ac-49c0-a5cf-e02e18d3d50d" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.WhenGettingDice, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TheNumberOfDiceCreatedIsDictatedByTheInput" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeOnesAndOneFiveRulesAreMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="7255818f-c892-55a9-aa7f-3ba2451b4768">
+      <Execution id="b6b8e9d7-f5ac-4afe-b654-69792718efd5" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeOnesAndOneFiveRulesAreMatched" />
+    </UnitTest>
+    <UnitTest name="TheRuleValueCanBeLookedUp" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="75790c8d-f6b0-593d-b258-d4c6454a9a2b">
+      <Execution id="a6de2f12-8fa0-4043-8ee8-36a1ecad42be" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.Rules.WhenMatchingOneDie, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TheRuleValueCanBeLookedUp" />
+    </UnitTest>
+    <UnitTest name="AndTheOneOneIsMatchedTwice" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="1673a8a4-378a-d742-b5f3-241ce0570854">
+      <Execution id="1e1991aa-b13f-424c-b7bd-0de4b8984958" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheOneOneIsMatchedTwice" />
+    </UnitTest>
+    <UnitTest name="RandomDiceAreRetrieved" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="524e19b5-adbe-4187-fd13-edbdf92d80c9">
+      <Execution id="72dd0758-6798-4db3-8a1e-0d38fce5477c" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.WhenRollingDice, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="RandomDiceAreRetrieved" />
+    </UnitTest>
+    <UnitTest name="AndTheThreeFivesRuleIsMatched" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="36dd9b67-a4ad-c710-f2b2-b218d79a554a">
+      <Execution id="226e29cf-249d-4ac8-8ebf-df0c26f204ea" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheThreeFivesRuleIsMatched" />
+    </UnitTest>
+    <UnitTest name="AndTheOneFiveRuleIsMatchedTheOneOneIsMatchedTwice" storage="d:\greedkata\greedkata.test\bin\debug\greedkata.test.dll" id="5aaf4d04-efc5-db88-0b8a-b55d52a9660c">
+      <Execution id="eebb7b0c-b1a4-4935-8da6-eac8e02ce04e" />
+      <TestMethod codeBase="D:/GreedKata/GreedKata.Test/bin/Debug/GreedKata.Test.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore, GreedKata.Test, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="AndTheOneFiveRuleIsMatchedTheOneOneIsMatchedTwice" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="1673a8a4-378a-d742-b5f3-241ce0570854" executionId="1e1991aa-b13f-424c-b7bd-0de4b8984958" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="19bb8d38-09db-b45c-d97a-d557506c887a" executionId="74e2823c-69bf-455e-ab2f-e62146726f18" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="20c0f5d0-691a-e093-e521-9234ae60aed1" executionId="e968c638-ece7-49f5-9afd-95db0069cedc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="36dd9b67-a4ad-c710-f2b2-b218d79a554a" executionId="226e29cf-249d-4ac8-8ebf-df0c26f204ea" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="524e19b5-adbe-4187-fd13-edbdf92d80c9" executionId="72dd0758-6798-4db3-8a1e-0d38fce5477c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5aaf4d04-efc5-db88-0b8a-b55d52a9660c" executionId="eebb7b0c-b1a4-4935-8da6-eac8e02ce04e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="5f2aac0f-1b8f-d439-09a1-caeca311e810" executionId="b1b52eb3-0085-450f-bbcf-c7695fc1ea2a" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="62d6ee5f-c464-4ca7-03e8-eeb4a2911936" executionId="19254c99-96fb-4c45-9528-98b9d8d2eaaf" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="681927c2-fead-4997-7a80-5bdc55eb5552" executionId="e9760ed1-7578-4a42-b2a1-53990848774e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7255818f-c892-55a9-aa7f-3ba2451b4768" executionId="b6b8e9d7-f5ac-4afe-b654-69792718efd5" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="75790c8d-f6b0-593d-b258-d4c6454a9a2b" executionId="a6de2f12-8fa0-4043-8ee8-36a1ecad42be" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="778be0c6-fe55-a457-31a7-bcb21ead00f6" executionId="ad2e5a36-7d89-4915-a050-40243a3b4a5e" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="78fa53d6-18f0-08c9-13fc-312de31649eb" executionId="bf7d0fd8-8941-4734-b5fa-7e0b055bdc31" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="7b6ee3fd-918a-1385-912b-acc296b40e7b" executionId="9bcbeaa4-86f0-42db-8dd0-ce4080f35c1d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8bc84bc3-f5ff-1528-80bb-3bed49d3fcd8" executionId="ccdb122f-697d-487e-a263-1e0e19a70574" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9343120d-9a61-e87b-64b1-f423d535d4a9" executionId="2840170e-81f8-4175-96cb-31c263edd52c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="9ca15271-9dd2-94e2-4ff8-7700ef0feab3" executionId="ace157fe-57bf-4b1b-a9f1-40c42449653f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="ab7abe8a-2795-55ca-ac43-345ef40de510" executionId="294c25db-b7ac-49c0-a5cf-e02e18d3d50d" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="b494e56d-9a80-37be-f315-4879f38f7ae2" executionId="2ee9dfcd-45fa-4faf-b32b-6ccd0afe9fe7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bef0335e-32e6-07a2-f7b0-f8b5481ddd3e" executionId="298dba8e-6523-49d8-b704-e9cfc53c6109" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c042c0ad-a16d-b763-65dd-f31d6cf2d950" executionId="e346b5d5-1713-4c92-94df-8d464621e750" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="c143b250-1b85-0f8d-d9aa-91fbb8d4803b" executionId="67fe4812-d906-4d5a-b0df-8109c6fde92f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cdba51be-4aaa-1bf6-a1a0-42dfd4c54dd0" executionId="b8c38e22-9266-4d85-9be3-2f7669fb5768" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="cdd011d7-65ff-d1a2-8b99-24ac44f008b5" executionId="d096610c-19ff-4693-a4aa-128658d8b4ce" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="efd49c58-fd7b-53ca-9b39-f32fa3d40890" executionId="121aa3a2-84ad-453c-bf30-82c68d0a63b8" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="f5a66eed-0f35-c989-399d-19a782d6ddc0" executionId="4f15e251-915b-40c7-9e9e-161c496425d7" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="fc13ee49-bfaf-6222-1eb6-68d3562aa4fa" executionId="6934afe0-5622-49f7-bd7c-57ce199b3231" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="1e1991aa-b13f-424c-b7bd-0de4b8984958" testId="1673a8a4-378a-d742-b5f3-241ce0570854" testName="AndTheOneOneIsMatchedTwice" computerName="LAPTOP" duration="00:00:00.0614509" startTime="2012-04-14T23:00:47.8410000-04:00" endTime="2012-04-14T23:00:48.3430000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="1e1991aa-b13f-424c-b7bd-0de4b8984958">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected object to be 200, but found 
+
+GreedKata.Result
+{
+   Dice = {GreedKata.Die
+   {
+      Value = 1
+   }, GreedKata.Die
+   {
+      Value = 3
+   }, GreedKata.Die
+   {
+      Value = 1
+   }, GreedKata.Die
+   {
+      Value = 2
+   }, GreedKata.Die
+   {
+      Value = 4
+   }}
+   Score = 200
+}.</Message>
+          <StackTrace>   at FluentAssertions.Frameworks.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Verification.FailWith(String failureMessage, Object[] failureArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected, String reason, Object[] reasonArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected)
+   at GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore.AndTheOneOneIsMatchedTwice() in D:\GreedKata\GreedKata.Test\WhenCalculatingTheScore.cs:line 130
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="74e2823c-69bf-455e-ab2f-e62146726f18" testId="19bb8d38-09db-b45c-d97a-d557506c887a" testName="NoDiceWithTheValueToMatchReturnsFalse" computerName="LAPTOP" duration="00:00:00.0126491" startTime="2012-04-14T23:00:48.3460000-04:00" endTime="2012-04-14T23:00:48.3760000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="74e2823c-69bf-455e-ab2f-e62146726f18">
+    </UnitTestResult>
+    <UnitTestResult executionId="e968c638-ece7-49f5-9afd-95db0069cedc" testId="20c0f5d0-691a-e093-e521-9234ae60aed1" testName="AndTheThreeTwosRuleIsMatched" computerName="LAPTOP" duration="00:00:00.0016387" startTime="2012-04-14T23:00:48.3780000-04:00" endTime="2012-04-14T23:00:48.3970000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e968c638-ece7-49f5-9afd-95db0069cedc">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected object to be 200, but found 
+
+GreedKata.Result
+{
+   Dice = {GreedKata.Die
+   {
+      Value = 2
+   }, GreedKata.Die
+   {
+      Value = 2
+   }, GreedKata.Die
+   {
+      Value = 2
+   }, GreedKata.Die
+   {
+      Value = 0
+   }, GreedKata.Die
+   {
+      Value = 0
+   }}
+   Score = 200
+}.</Message>
+          <StackTrace>   at FluentAssertions.Frameworks.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Verification.FailWith(String failureMessage, Object[] failureArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected, String reason, Object[] reasonArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected)
+   at GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore.AndTheThreeTwosRuleIsMatched() in D:\GreedKata\GreedKata.Test\WhenCalculatingTheScore.cs:line 58
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="226e29cf-249d-4ac8-8ebf-df0c26f204ea" testId="36dd9b67-a4ad-c710-f2b2-b218d79a554a" testName="AndTheThreeFivesRuleIsMatched" computerName="LAPTOP" duration="00:00:00.0012133" startTime="2012-04-14T23:00:48.3990000-04:00" endTime="2012-04-14T23:00:48.4110000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="226e29cf-249d-4ac8-8ebf-df0c26f204ea">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected object to be 500, but found 
+
+GreedKata.Result
+{
+   Dice = {GreedKata.Die
+   {
+      Value = 5
+   }, GreedKata.Die
+   {
+      Value = 5
+   }, GreedKata.Die
+   {
+      Value = 5
+   }, GreedKata.Die
+   {
+      Value = 0
+   }, GreedKata.Die
+   {
+      Value = 0
+   }}
+   Score = 500
+}.</Message>
+          <StackTrace>   at FluentAssertions.Frameworks.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Verification.FailWith(String failureMessage, Object[] failureArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected, String reason, Object[] reasonArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected)
+   at GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore.AndTheThreeFivesRuleIsMatched() in D:\GreedKata\GreedKata.Test\WhenCalculatingTheScore.cs:line 85
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="72dd0758-6798-4db3-8a1e-0d38fce5477c" testId="524e19b5-adbe-4187-fd13-edbdf92d80c9" testName="RandomDiceAreRetrieved" computerName="LAPTOP" duration="00:00:00.2481455" startTime="2012-04-14T23:00:48.4150000-04:00" endTime="2012-04-14T23:00:48.6750000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="72dd0758-6798-4db3-8a1e-0d38fce5477c">
+    </UnitTestResult>
+    <UnitTestResult executionId="eebb7b0c-b1a4-4935-8da6-eac8e02ce04e" testId="5aaf4d04-efc5-db88-0b8a-b55d52a9660c" testName="AndTheOneFiveRuleIsMatchedTheOneOneIsMatchedTwice" computerName="LAPTOP" duration="00:00:00.0011007" startTime="2012-04-14T23:00:48.6810000-04:00" endTime="2012-04-14T23:00:48.6860000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="eebb7b0c-b1a4-4935-8da6-eac8e02ce04e">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected object to be 250, but found 
+
+GreedKata.Result
+{
+   Dice = {GreedKata.Die
+   {
+      Value = 1
+   }, GreedKata.Die
+   {
+      Value = 5
+   }, GreedKata.Die
+   {
+      Value = 1
+   }, GreedKata.Die
+   {
+      Value = 2
+   }, GreedKata.Die
+   {
+      Value = 4
+   }}
+   Score = 250
+}.</Message>
+          <StackTrace>   at FluentAssertions.Frameworks.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Verification.FailWith(String failureMessage, Object[] failureArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected, String reason, Object[] reasonArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected)
+   at GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore.AndTheOneFiveRuleIsMatchedTheOneOneIsMatchedTwice() in D:\GreedKata\GreedKata.Test\WhenCalculatingTheScore.cs:line 139
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b1b52eb3-0085-450f-bbcf-c7695fc1ea2a" testId="5f2aac0f-1b8f-d439-09a1-caeca311e810" testName="AndTheThreeOnesRuleIsMatched" computerName="LAPTOP" duration="00:00:00.0011263" startTime="2012-04-14T23:00:48.6880000-04:00" endTime="2012-04-14T23:00:48.7050000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b1b52eb3-0085-450f-bbcf-c7695fc1ea2a">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected object to be 1000, but found 
+
+GreedKata.Result
+{
+   Dice = {GreedKata.Die
+   {
+      Value = 1
+   }, GreedKata.Die
+   {
+      Value = 1
+   }, GreedKata.Die
+   {
+      Value = 1
+   }, GreedKata.Die
+   {
+      Value = 0
+   }, GreedKata.Die
+   {
+      Value = 0
+   }}
+   Score = 1000
+}.</Message>
+          <StackTrace>   at FluentAssertions.Frameworks.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Verification.FailWith(String failureMessage, Object[] failureArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected, String reason, Object[] reasonArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected)
+   at GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore.AndTheThreeOnesRuleIsMatched() in D:\GreedKata\GreedKata.Test\WhenCalculatingTheScore.cs:line 49
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="19254c99-96fb-4c45-9528-98b9d8d2eaaf" testId="62d6ee5f-c464-4ca7-03e8-eeb4a2911936" testName="AndTheThreeFivesRuleIsMatchedTheOneFiveIsMatchedTwice" computerName="LAPTOP" duration="00:00:00.0010970" startTime="2012-04-14T23:00:48.7060000-04:00" endTime="2012-04-14T23:00:48.7230000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="19254c99-96fb-4c45-9528-98b9d8d2eaaf">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected object to be 600, but found 
+
+GreedKata.Result
+{
+   Dice = {GreedKata.Die
+   {
+      Value = 5
+   }, GreedKata.Die
+   {
+      Value = 5
+   }, GreedKata.Die
+   {
+      Value = 5
+   }, GreedKata.Die
+   {
+      Value = 5
+   }, GreedKata.Die
+   {
+      Value = 5
+   }}
+   Score = 600
+}.</Message>
+          <StackTrace>   at FluentAssertions.Frameworks.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Verification.FailWith(String failureMessage, Object[] failureArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected, String reason, Object[] reasonArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected)
+   at GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore.AndTheThreeFivesRuleIsMatchedTheOneFiveIsMatchedTwice() in D:\GreedKata\GreedKata.Test\WhenCalculatingTheScore.cs:line 148
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="e9760ed1-7578-4a42-b2a1-53990848774e" testId="681927c2-fead-4997-7a80-5bdc55eb5552" testName="TheScoreIsCalculatedAndReturned" computerName="LAPTOP" duration="00:00:00.0317064" startTime="2012-04-14T23:00:48.7260000-04:00" endTime="2012-04-14T23:00:48.7630000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e9760ed1-7578-4a42-b2a1-53990848774e">
+    </UnitTestResult>
+    <UnitTestResult executionId="b6b8e9d7-f5ac-4afe-b654-69792718efd5" testId="7255818f-c892-55a9-aa7f-3ba2451b4768" testName="AndTheThreeOnesAndOneFiveRulesAreMatched" computerName="LAPTOP" duration="00:00:00.0014298" startTime="2012-04-14T23:00:48.7660000-04:00" endTime="2012-04-14T23:00:48.7760000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b6b8e9d7-f5ac-4afe-b654-69792718efd5">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected object to be 1150, but found 
+
+GreedKata.Result
+{
+   Dice = {GreedKata.Die
+   {
+      Value = 1
+   }, GreedKata.Die
+   {
+      Value = 1
+   }, GreedKata.Die
+   {
+      Value = 1
+   }, GreedKata.Die
+   {
+      Value = 5
+   }, GreedKata.Die
+   {
+      Value = 1
+   }}
+   Score = 1150
+}.</Message>
+          <StackTrace>   at FluentAssertions.Frameworks.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Verification.FailWith(String failureMessage, Object[] failureArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected, String reason, Object[] reasonArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected)
+   at GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore.AndTheThreeOnesAndOneFiveRulesAreMatched() in D:\GreedKata\GreedKata.Test\WhenCalculatingTheScore.cs:line 112
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="a6de2f12-8fa0-4043-8ee8-36a1ecad42be" testId="75790c8d-f6b0-593d-b258-d4c6454a9a2b" testName="TheRuleValueCanBeLookedUp" computerName="LAPTOP" duration="00:00:00.0025249" startTime="2012-04-14T23:00:48.7780000-04:00" endTime="2012-04-14T23:00:48.7940000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="a6de2f12-8fa0-4043-8ee8-36a1ecad42be">
+    </UnitTestResult>
+    <UnitTestResult executionId="ad2e5a36-7d89-4915-a050-40243a3b4a5e" testId="778be0c6-fe55-a457-31a7-bcb21ead00f6" testName="AndTheOneFiveRuleIsMatched" computerName="LAPTOP" duration="00:00:00.0012217" startTime="2012-04-14T23:00:48.7980000-04:00" endTime="2012-04-14T23:00:48.8070000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ad2e5a36-7d89-4915-a050-40243a3b4a5e">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected object to be 50, but found 
+
+GreedKata.Result
+{
+   Dice = {GreedKata.Die
+   {
+      Value = 5
+   }, GreedKata.Die
+   {
+      Value = 0
+   }, GreedKata.Die
+   {
+      Value = 0
+   }, GreedKata.Die
+   {
+      Value = 0
+   }, GreedKata.Die
+   {
+      Value = 0
+   }}
+   Score = 50
+}.</Message>
+          <StackTrace>   at FluentAssertions.Frameworks.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Verification.FailWith(String failureMessage, Object[] failureArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected, String reason, Object[] reasonArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected)
+   at GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore.AndTheOneFiveRuleIsMatched() in D:\GreedKata\GreedKata.Test\WhenCalculatingTheScore.cs:line 40
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="bf7d0fd8-8941-4734-b5fa-7e0b055bdc31" testId="78fa53d6-18f0-08c9-13fc-312de31649eb" testName="TheRandomDiceArePassedToTheCalculateMethod" computerName="LAPTOP" duration="00:00:00.0070541" startTime="2012-04-14T23:00:48.8090000-04:00" endTime="2012-04-14T23:00:48.8310000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bf7d0fd8-8941-4734-b5fa-7e0b055bdc31">
+    </UnitTestResult>
+    <UnitTestResult executionId="9bcbeaa4-86f0-42db-8dd0-ce4080f35c1d" testId="7b6ee3fd-918a-1385-912b-acc296b40e7b" testName="AtLeastOneDieWithTheValueToMatchReturnsTrue" computerName="LAPTOP" duration="00:00:00.0003863" startTime="2012-04-14T23:00:48.8340000-04:00" endTime="2012-04-14T23:00:48.8420000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9bcbeaa4-86f0-42db-8dd0-ce4080f35c1d">
+    </UnitTestResult>
+    <UnitTestResult executionId="ccdb122f-697d-487e-a263-1e0e19a70574" testId="8bc84bc3-f5ff-1528-80bb-3bed49d3fcd8" testName="AndBothFiveRulesAreMatched" computerName="LAPTOP" duration="00:00:00.0011100" startTime="2012-04-14T23:00:48.8450000-04:00" endTime="2012-04-14T23:00:48.8550000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ccdb122f-697d-487e-a263-1e0e19a70574">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected object to be 550, but found 
+
+GreedKata.Result
+{
+   Dice = {GreedKata.Die
+   {
+      Value = 5
+   }, GreedKata.Die
+   {
+      Value = 5
+   }, GreedKata.Die
+   {
+      Value = 5
+   }, GreedKata.Die
+   {
+      Value = 5
+   }, GreedKata.Die
+   {
+      Value = 2
+   }}
+   Score = 550
+}.</Message>
+          <StackTrace>   at FluentAssertions.Frameworks.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Verification.FailWith(String failureMessage, Object[] failureArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected, String reason, Object[] reasonArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected)
+   at GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore.AndBothFiveRulesAreMatched() in D:\GreedKata\GreedKata.Test\WhenCalculatingTheScore.cs:line 103
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="2840170e-81f8-4175-96cb-31c263edd52c" testId="9343120d-9a61-e87b-64b1-f423d535d4a9" testName="OneDieWithTheValueToMatchReturnsFalse" computerName="LAPTOP" duration="00:00:00.0004831" startTime="2012-04-14T23:00:48.8590000-04:00" endTime="2012-04-14T23:00:48.8700000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2840170e-81f8-4175-96cb-31c263edd52c">
+    </UnitTestResult>
+    <UnitTestResult executionId="ace157fe-57bf-4b1b-a9f1-40c42449653f" testId="9ca15271-9dd2-94e2-4ff8-7700ef0feab3" testName="AndTheThreeFoursRuleIsMatched" computerName="LAPTOP" duration="00:00:00.0010644" startTime="2012-04-14T23:00:48.8710000-04:00" endTime="2012-04-14T23:00:48.8810000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="ace157fe-57bf-4b1b-a9f1-40c42449653f">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected object to be 400, but found 
+
+GreedKata.Result
+{
+   Dice = {GreedKata.Die
+   {
+      Value = 4
+   }, GreedKata.Die
+   {
+      Value = 4
+   }, GreedKata.Die
+   {
+      Value = 4
+   }, GreedKata.Die
+   {
+      Value = 0
+   }, GreedKata.Die
+   {
+      Value = 0
+   }}
+   Score = 400
+}.</Message>
+          <StackTrace>   at FluentAssertions.Frameworks.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Verification.FailWith(String failureMessage, Object[] failureArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected, String reason, Object[] reasonArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected)
+   at GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore.AndTheThreeFoursRuleIsMatched() in D:\GreedKata\GreedKata.Test\WhenCalculatingTheScore.cs:line 76
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="294c25db-b7ac-49c0-a5cf-e02e18d3d50d" testId="ab7abe8a-2795-55ca-ac43-345ef40de510" testName="TheNumberOfDiceCreatedIsDictatedByTheInput" computerName="LAPTOP" duration="00:00:00.0020316" startTime="2012-04-14T23:00:48.8830000-04:00" endTime="2012-04-14T23:00:48.9010000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="294c25db-b7ac-49c0-a5cf-e02e18d3d50d">
+    </UnitTestResult>
+    <UnitTestResult executionId="2ee9dfcd-45fa-4faf-b32b-6ccd0afe9fe7" testId="b494e56d-9a80-37be-f315-4879f38f7ae2" testName="ThreeDiceWithTheValueToMatchReturnsTrue" computerName="LAPTOP" duration="00:00:00.0002583" startTime="2012-04-14T23:00:48.9020000-04:00" endTime="2012-04-14T23:00:48.9120000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="2ee9dfcd-45fa-4faf-b32b-6ccd0afe9fe7">
+    </UnitTestResult>
+    <UnitTestResult executionId="298dba8e-6523-49d8-b704-e9cfc53c6109" testId="bef0335e-32e6-07a2-f7b0-f8b5481ddd3e" testName="FourDiceWithTheValueToMatchReturnsTrue" computerName="LAPTOP" duration="00:00:00.0022787" startTime="2012-04-14T23:00:48.9140000-04:00" endTime="2012-04-14T23:00:48.9310000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="298dba8e-6523-49d8-b704-e9cfc53c6109">
+    </UnitTestResult>
+    <UnitTestResult executionId="e346b5d5-1713-4c92-94df-8d464621e750" testId="c042c0ad-a16d-b763-65dd-f31d6cf2d950" testName="AndTheOneOneRuleIsMatched" computerName="LAPTOP" duration="00:00:00.0012836" startTime="2012-04-14T23:00:48.9330000-04:00" endTime="2012-04-14T23:00:48.9490000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e346b5d5-1713-4c92-94df-8d464621e750">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected object to be 100, but found 
+
+GreedKata.Result
+{
+   Dice = {GreedKata.Die
+   {
+      Value = 1
+   }, GreedKata.Die
+   {
+      Value = 0
+   }, GreedKata.Die
+   {
+      Value = 0
+   }, GreedKata.Die
+   {
+      Value = 0
+   }, GreedKata.Die
+   {
+      Value = 0
+   }}
+   Score = 100
+}.</Message>
+          <StackTrace>   at FluentAssertions.Frameworks.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Verification.FailWith(String failureMessage, Object[] failureArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected, String reason, Object[] reasonArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected)
+   at GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore.AndTheOneOneRuleIsMatched() in D:\GreedKata\GreedKata.Test\WhenCalculatingTheScore.cs:line 31
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="67fe4812-d906-4d5a-b0df-8109c6fde92f" testId="c143b250-1b85-0f8d-d9aa-91fbb8d4803b" testName="AndTheThreeThreesAndOneFiveRulesAreMatched" computerName="LAPTOP" duration="00:00:00.0037774" startTime="2012-04-14T23:00:48.9510000-04:00" endTime="2012-04-14T23:00:48.9780000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="67fe4812-d906-4d5a-b0df-8109c6fde92f">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected object to be 350, but found 
+
+GreedKata.Result
+{
+   Dice = {GreedKata.Die
+   {
+      Value = 3
+   }, GreedKata.Die
+   {
+      Value = 4
+   }, GreedKata.Die
+   {
+      Value = 5
+   }, GreedKata.Die
+   {
+      Value = 3
+   }, GreedKata.Die
+   {
+      Value = 3
+   }}
+   Score = 350
+}.</Message>
+          <StackTrace>   at FluentAssertions.Frameworks.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Verification.FailWith(String failureMessage, Object[] failureArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected, String reason, Object[] reasonArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected)
+   at GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore.AndTheThreeThreesAndOneFiveRulesAreMatched() in D:\GreedKata\GreedKata.Test\WhenCalculatingTheScore.cs:line 121
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="b8c38e22-9266-4d85-9be3-2f7669fb5768" testId="cdba51be-4aaa-1bf6-a1a0-42dfd4c54dd0" testName="AndTheThreeThreesRuleIsMatched" computerName="LAPTOP" duration="00:00:00.0011938" startTime="2012-04-14T23:00:48.9790000-04:00" endTime="2012-04-14T23:00:48.9940000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b8c38e22-9266-4d85-9be3-2f7669fb5768">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected object to be 300, but found 
+
+GreedKata.Result
+{
+   Dice = {GreedKata.Die
+   {
+      Value = 3
+   }, GreedKata.Die
+   {
+      Value = 3
+   }, GreedKata.Die
+   {
+      Value = 3
+   }, GreedKata.Die
+   {
+      Value = 0
+   }, GreedKata.Die
+   {
+      Value = 0
+   }}
+   Score = 300
+}.</Message>
+          <StackTrace>   at FluentAssertions.Frameworks.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Verification.FailWith(String failureMessage, Object[] failureArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected, String reason, Object[] reasonArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected)
+   at GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore.AndTheThreeThreesRuleIsMatched() in D:\GreedKata\GreedKata.Test\WhenCalculatingTheScore.cs:line 67
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="d096610c-19ff-4693-a4aa-128658d8b4ce" testId="cdd011d7-65ff-d1a2-8b99-24ac44f008b5" testName="NoDiceWithTheValueToMatchReturnsFalse" computerName="LAPTOP" duration="00:00:00.0002983" startTime="2012-04-14T23:00:48.9960000-04:00" endTime="2012-04-14T23:00:49.0010000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d096610c-19ff-4693-a4aa-128658d8b4ce">
+    </UnitTestResult>
+    <UnitTestResult executionId="121aa3a2-84ad-453c-bf30-82c68d0a63b8" testId="efd49c58-fd7b-53ca-9b39-f32fa3d40890" testName="AndNoRulesAreMatched" computerName="LAPTOP" duration="00:00:00.0010607" startTime="2012-04-14T23:00:49.0020000-04:00" endTime="2012-04-14T23:00:49.0180000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="121aa3a2-84ad-453c-bf30-82c68d0a63b8">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected object to be 0, but found 
+
+GreedKata.Result
+{
+   Dice = {GreedKata.Die
+   {
+      Value = 2
+   }, GreedKata.Die
+   {
+      Value = 3
+   }, GreedKata.Die
+   {
+      Value = 4
+   }, GreedKata.Die
+   {
+      Value = 6
+   }, GreedKata.Die
+   {
+      Value = 2
+   }}
+   Score = 0
+}.</Message>
+          <StackTrace>   at FluentAssertions.Frameworks.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Verification.FailWith(String failureMessage, Object[] failureArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected, String reason, Object[] reasonArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected)
+   at GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore.AndNoRulesAreMatched() in D:\GreedKata\GreedKata.Test\WhenCalculatingTheScore.cs:line 22
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+    <UnitTestResult executionId="4f15e251-915b-40c7-9e9e-161c496425d7" testId="f5a66eed-0f35-c989-399d-19a782d6ddc0" testName="TheRuleValueCanBeLookedUp" computerName="LAPTOP" duration="00:00:00.0004300" startTime="2012-04-14T23:00:49.0200000-04:00" endTime="2012-04-14T23:00:49.0290000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="4f15e251-915b-40c7-9e9e-161c496425d7">
+    </UnitTestResult>
+    <UnitTestResult executionId="6934afe0-5622-49f7-bd7c-57ce199b3231" testId="fc13ee49-bfaf-6222-1eb6-68d3562aa4fa" testName="AndTheThreeSixesRuleIsMatched" computerName="LAPTOP" duration="00:00:00.0011044" startTime="2012-04-14T23:00:49.0310000-04:00" endTime="2012-04-14T23:00:49.0470000-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="6934afe0-5622-49f7-bd7c-57ce199b3231">
+      <Output>
+        <ErrorInfo>
+          <Message>Expected object to be 600, but found 
+
+GreedKata.Result
+{
+   Dice = {GreedKata.Die
+   {
+      Value = 6
+   }, GreedKata.Die
+   {
+      Value = 6
+   }, GreedKata.Die
+   {
+      Value = 6
+   }, GreedKata.Die
+   {
+      Value = 0
+   }, GreedKata.Die
+   {
+      Value = 0
+   }}
+   Score = 600
+}.</Message>
+          <StackTrace>   at FluentAssertions.Frameworks.LateBoundTestFramework.Throw(String message)
+   at FluentAssertions.Verification.FailWith(String failureMessage, Object[] failureArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected, String reason, Object[] reasonArgs)
+   at FluentAssertions.Assertions.ObjectAssertions.Be(Object expected)
+   at GreedKata.Test.ScoreCalculation.WhenCalculatingTheScore.AndTheThreeSixesRuleIsMatched() in D:\GreedKata\GreedKata.Test\WhenCalculatingTheScore.cs:line 94
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

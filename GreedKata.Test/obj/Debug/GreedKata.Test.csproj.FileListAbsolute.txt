@@ -1,0 +1,17 @@
+C:\Users\Matt\documents\visual studio 2010\Projects\GreedKata\GreedKata.Test\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Matt\documents\visual studio 2010\Projects\GreedKata\GreedKata.Test\bin\Debug\GreedKata.Test.dll
+C:\Users\Matt\documents\visual studio 2010\Projects\GreedKata\GreedKata.Test\bin\Debug\GreedKata.Test.pdb
+C:\Users\Matt\documents\visual studio 2010\Projects\GreedKata\GreedKata.Test\bin\Debug\GreedKata.dll
+C:\Users\Matt\documents\visual studio 2010\Projects\GreedKata\GreedKata.Test\bin\Debug\GreedKata.pdb
+C:\Users\Matt\documents\visual studio 2010\Projects\GreedKata\GreedKata.Test\obj\Debug\GreedKata.Test.dll
+C:\Users\Matt\documents\visual studio 2010\Projects\GreedKata\GreedKata.Test\obj\Debug\GreedKata.Test.pdb
+D:\GreedKata\GreedKata.Test\obj\Debug\ResolveAssemblyReference.cache
+D:\GreedKata\GreedKata.Test\obj\Debug\GreedKata.Test.dll
+D:\GreedKata\GreedKata.Test\obj\Debug\GreedKata.Test.pdb
+D:\GreedKata\GreedKata.Test\bin\Debug\GreedKata.Test.dll
+D:\GreedKata\GreedKata.Test\bin\Debug\GreedKata.Test.pdb
+D:\GreedKata\GreedKata.Test\bin\Debug\GreedKata.pdb
+D:\GreedKata\GreedKata.Test\bin\Debug\FluentAssertions.dll
+D:\GreedKata\GreedKata.Test\bin\Debug\Moq.dll
+D:\GreedKata\GreedKata.Test\bin\Debug\GreedKata.exe
+D:\GreedKata\GreedKata.Test\bin\Debug\Autofac.dll
