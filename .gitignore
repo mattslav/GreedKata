@@ -1,0 +1,5 @@
+# git ignore file
+*.cache
+./TestResults
+./GreedKata/bin
+./GreedKata/obj

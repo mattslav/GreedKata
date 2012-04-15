@@ -1,0 +1,15 @@
+
+
+Greed is a press-your-luck dice rolling game. In the game, the roller will be rolling dice trying to earn as 
+many points as possible.
+
+Requirements 
+Write code which will calculate the best score based on any given roll using following set of scoring rules. 
+•  A single one (100) 
+•  A single five (50) 
+•  Triple ones [1,1,1] (1000) 
+•  Triple twos [2,2,2] (200) 
+•  Triple threes [3,3,3] (300) 
+•  Triple fours [4,4,4] (400) 
+•  Triple fives [5,5,5] (500) 
+•  Triple sixes [6,6,6] (600) 
